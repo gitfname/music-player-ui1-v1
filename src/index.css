@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Robot */
+@font-face {
+  font-family: RobotoLight;
+  src: url(/public/fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(/public/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(/public/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+/* Yekan */
+@font-face {
+  font-family: 'yekan';
+  font-style: normal;
+  font-weight: 300;
+  src:url(/public/fonts/yekan-web/yekan.eot) format('embedded-opentype'),
+      url(/public/fonts/yekan-web/yekan.woff) format('woff'),
+      url(/public/fonts/yekan-web/yekan.ttf) format('truetype');
+}
+
+* {
+  font-family: RobotoRegular;
+}
+
+:root {
+  --primary-color: #c1133d;
+}
+
+[lang='pr'],[lang='pr'] * {
+  font-family: Yekan;
+}
+
+
+.little-primary-shadow {
+  box-shadow: 0 0 10px var(--primary-color),
+              0 0 30px var(--primary-color);
+}
+.small-primary-shadow {
+  box-shadow: 0 0 10px var(--primary-color),
+              0 0 30px var(--primary-color),
+              0 0 50px var(--primary-color);
+}
+.primary-shadow {
+  box-shadow: 0 0 10px var(--primary-color),
+              0 0 30px var(--primary-color),
+              0 0 50px var(--primary-color),
+              0 0 70px var(--primary-color);
+}
+.medium-primary-shadow {
+  box-shadow: 0 0 10px var(--primary-color),
+              0 0 30px var(--primary-color),
+              0 0 50px var(--primary-color),
+              0 0 70px var(--primary-color),
+              0 0 90px var(--primary-color);
+}
+.large-primary-shadow {
+  box-shadow: 0 0 10px var(--primary-color),
+              0 0 30px var(--primary-color),
+              0 0 50px var(--primary-color),
+              0 0 70px var(--primary-color),
+              0 0 90px var(--primary-color),
+              0 0 120px var(--primary-color);
+}
+.extralarge-primary-shadow {
+  box-shadow: 0 0 30px var(--primary-color),
+              0 0 60px var(--primary-color),
+              0 0 90px var(--primary-color),
+              0 0 120px var(--primary-color),
+              0 0 150px var(--primary-color),
+              0 0 180px var(--primary-color),
+              0 0 210px var(--primary-color);
+}
+
+
+
+
+
+
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 6px;
+}
+@media screen and (max-width: 600px) {
+  *::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  } 
+}
+  
+*::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, .05);
+}
+ 
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+input[type=range] {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1;
+  height: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  width: 100%;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 23px;
+  height: 23px;
+  margin-top: -12px;
+  background-color: #0f131f;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 23px;
+  height: 23px;
+  margin-top: -12px;
+  background-color: #0f131f;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+input[type=range]::-ms-thumb {
+  width: 23px;
+  height: 23px;
+  margin-top: -12px;
+  background-color: #0f131f;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+input[type=range]:hover::-webkit-slider-thumb {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+input[type=range]:hover::-moz-range-thumb {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+input[type=range]:hover::-ms-thumb {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+input[type=range]:active::-webkit-slider-thumb {
+  border-color: #ffffff;
+}
+input[type=range]:active::-moz-range-thumb {
+  border-color: #ffffff;
+}
+input[type=range]:active::-ms-thumb {
+  border-color: #ffffff;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  cursor: pointer;
+  height: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  cursor: pointer;
+  height: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
