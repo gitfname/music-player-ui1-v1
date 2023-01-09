@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/music-player-ui1-v1/static/css/main.7344f7fb.css",
+    "main.js": "/music-player-ui1-v1/static/js/main.a5b0c22d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/music-player-ui1-v1/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Roboto-Medium.ttf": "/music-player-ui1-v1/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Regular.ttf": "/music-player-ui1-v1/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Light.ttf": "/music-player-ui1-v1/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/bg.png": "/music-player-ui1-v1/static/media/bg.3952295c5b25fcaff21e.png",
+    "static/media/img-12.jpg": "/music-player-ui1-v1/static/media/img-12.2cf90e274ec05cff02fb.jpg",
+    "static/media/img-2.jpg": "/music-player-ui1-v1/static/media/img-2.8d183c8fcb07a3963c7b.jpg",
+    "static/media/yekan.eot": "/music-player-ui1-v1/static/media/yekan.b034a4f7d5991205f88c.eot",
+    "static/media/yekan.ttf": "/music-player-ui1-v1/static/media/yekan.e774a068bb8ca327d66f.ttf",
+    "static/media/img-6.jpg": "/music-player-ui1-v1/static/media/img-6.9aed1de293621f609efd.jpg",
+    "static/media/img-9.jpg": "/music-player-ui1-v1/static/media/img-9.a8375d3ba6cf5df0a11e.jpg",
+    "static/media/img-10.jpg": "/music-player-ui1-v1/static/media/img-10.81369b2dd5ebff3823cb.jpg",
+    "static/media/img-7.jpg": "/music-player-ui1-v1/static/media/img-7.6b98a1cfe2d110b4a912.jpg",
+    "static/media/img-14.jpg": "/music-player-ui1-v1/static/media/img-14.6f29f91669f2c1e30fb0.jpg",
+    "static/media/img-11.jpg": "/music-player-ui1-v1/static/media/img-11.84a1ab42b10a7a3c154f.jpg",
+    "static/media/img-1.jpg": "/music-player-ui1-v1/static/media/img-1.0c93c6365f99a5791ac6.jpg",
+    "static/media/img-5.jpg": "/music-player-ui1-v1/static/media/img-5.b24ca6644d2506002e62.jpg",
+    "static/media/img-4.jpg": "/music-player-ui1-v1/static/media/img-4.148f929e53d17a4bb582.jpg",
+    "static/media/img-13.jpg": "/music-player-ui1-v1/static/media/img-13.0e7f07980a13803d86c8.jpg",
+    "static/media/img-8.jpg": "/music-player-ui1-v1/static/media/img-8.b69c34ae67a02c7d7d6c.jpg",
+    "static/media/img-3.jpg": "/music-player-ui1-v1/static/media/img-3.7622f85079dec5da01f3.jpg",
+    "static/media/yekan.woff": "/music-player-ui1-v1/static/media/yekan.fa9c652f56e736987fca.woff",
+    "index.html": "/music-player-ui1-v1/index.html",
+    "main.7344f7fb.css.map": "/music-player-ui1-v1/static/css/main.7344f7fb.css.map",
+    "main.a5b0c22d.js.map": "/music-player-ui1-v1/static/js/main.a5b0c22d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/music-player-ui1-v1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7344f7fb.css",
+    "static/js/main.a5b0c22d.js"
+  ]
+}
